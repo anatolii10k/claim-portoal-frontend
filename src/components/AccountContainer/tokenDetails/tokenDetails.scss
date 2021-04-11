@@ -1,0 +1,42 @@
+.tokenDetails{
+    text-align: initial;
+    margin: 0% 2% 0% 0%;
+    border: solid 1px #17D5FC;
+    border-radius: 5px;
+    .tokenTable{
+        border: solid 1px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        border-bottom: none;
+    }
+    .eachRow{
+        display: flex;
+        padding: 8px 12px;
+        font-size: 14px;
+        border-bottom: solid 1px #17D5FC;
+        .label{
+            flex: 0.3;
+            font-weight: bold;
+            color: black;
+        }
+        .values{
+            flex: 0.7;
+            word-break: break-word;
+            color: black;
+        }
+    }
+    .sendButton{
+        margin-top: 1px;
+        border: solid 1px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #ffffff;
+        width: 100%;
+        padding: 2.5%;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        background: linear-gradient(259.61deg, #0C7CFF 0%, #7175FF 50.81%, #78EFFF 100.57%);
+        cursor: pointer;
+    }
+}
+

@@ -1,0 +1,290 @@
+
+
+.mainHome{
+    // background-image: url("./home_bg.png");
+    background-size: cover;
+    .doggyImage{
+        position: absolute;
+        right: 0px;
+        img{
+            height: 208px;
+        }
+    }
+    .satelliteImage {
+        margin-right: 72%;
+        position: absolute;
+        top: 20%;
+        right: 0px;
+    }
+    .parachuteImage {
+        position: absolute;
+        margin-left: 30%;
+        top: 10%;
+    }
+    .parachuteImageBottom {
+        margin-bottom: 0%;
+        margin-left: 46%;
+        margin-top: -2%;
+    }
+    .homeData{
+        .ethereumImage {
+            padding: 2%;
+        }
+        .homeHeader{
+                // background-image: linear-gradient(88.53deg, #D830FC 39.83%, #17D5FC 100%);
+                background-clip: text;
+             
+                margin-top: 4%;
+                margin-bottom: 4%;
+                p{
+                    font-size: 38px;
+                    margin: 0;
+                    color: #0C7CFF;
+                    font-weight: bold;
+                    letter-spacing: 10px;
+                    // font-style: italic;
+                }
+                h4{
+                    font-size: 40px;
+                    font-weight: bold;
+                    font-style: italic;
+                }
+            }
+            .tilesContainer{
+                // padding: 0% 14%;
+                display: flex;
+                width: calc(100% - 72%);
+                display: flex;
+                margin: auto;
+                grid-gap: 6%;
+                gap: 6%;
+                img{
+                    margin-top: 16%;
+                }
+                p{
+                    margin: 0px;
+                    padding-top: 2%;
+                    color:  #0C7CFF;
+                    font-weight: 600;
+                }
+            
+                .metaTileActive{
+                    background-color: #fff;
+                    border-left: 0px solid #0C7CFF !important;
+                    border-right: 0px solid #0C7CFF !important;
+                    border-bottom: 3px solid #78EFFF !important;
+                    border-top: 3px solid #78EFFF !important;
+                    background-image: 
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 1010.57%),
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 110.57%),
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 110.57%),
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 110.57%);
+                    ;
+                    background-size: 4px 120%;
+                    background-position:0 0, 100% 0;
+                    background-repeat:no-repeat;
+                }
+                .trustTileActive{
+                    background-color: #fff;
+                    border-left: 0px solid #0C7CFF !important;
+                    border-right: 0px solid #0C7CFF !important;
+                    border-bottom: 3px solid #78EFFF !important;
+                    border-top: 3px solid #78EFFF !important;
+                    background-image: 
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 1010.57%),
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 110.57%),
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 110.57%),
+                    linear-gradient(259.61deg, #78EFFF 0%, #0C7CFF 50.81%, #0C7CFF 110.57%);
+                    ;
+                    background-size: 4px 120%;
+                    background-position:0 0, 100% 0;
+                    background-repeat:no-repeat;
+            
+               
+                }
+              
+                .tickMark1{
+                    margin-left: auto;
+                    // background-image: url('./tick.png');
+                    height: 34px;
+                    background-size: cover;
+                    width: 34px;
+                    cursor: pointer;
+                }
+              
+                .metaTile{
+                    padding: 2%;
+                    border: solid 1px cyan;
+                    border-radius: 10px;
+                    flex: 1;
+                    height: 17pc;
+                    margin: 2% 0%;
+                    cursor: pointer;
+                }
+                .trustTile{
+                    padding: 2%;
+                    border: solid 1px cyan;
+                    border-radius: 10px;
+                    flex: 1;
+                    height: 17pc;
+                    margin: 2% 0%;
+                    cursor: pointer;
+                }
+              
+            }
+
+            .walletMainContainer{
+                margin: 4px auto;
+                width: 28%;
+                padding-top: 40px;
+                
+                .walletButton{
+                    position: relative;
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 7px;
+                    border: solid 1px #17D5FC;
+                    letter-spacing: 3px;
+                    font-weight: 600;
+                    color: #ffffff;
+                    background: linear-gradient(88.53deg, #0C7CFF 39.83%, #17D5FC 100%);
+                    z-index: 99;
+                    cursor: pointer;
+                }
+            }
+
+            .priceMainContainer{
+                border: solid 1px #17D5FC;
+                border-radius: 5px;
+                margin: 1% auto 1% auto;
+                color: #0C7CFF;
+                padding: 15px 10px;
+                width: 30%;
+            h5 {
+                text-align: initial;
+            }
+            .imageContainer{
+                display: flex;
+                .image1{
+                    flex: 1;
+                    display: flex;
+                }
+                .textBox{
+                    border: solid 1px #17D5FC;
+                    border-radius: 5px;
+                    width: 75%;
+                    text-align: initial;
+                    margin-left: 4%;
+                    padding: 4px;
+                }
+                .image2{
+                    flex: 1;
+                    display: flex;
+                }
+                .equalTwo{
+                    font-size: 24px;
+                    margin-left: -2%;
+                    margin-right: 2%;
+                    line-height: 1;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+@media only screen 
+and (min-width : 776px) 
+and (max-width : 1090px) 
+{
+    .tilesContainer{
+        width: 50% !important;
+    }
+    .walletMainContainer{
+        margin: 4px auto;
+        width: 50% !important;
+    }
+    .priceMainContainer{
+        width: 50% !important;
+        border:none !important;
+    }
+    .doggyImage{
+      display: none;
+    }
+    .satelliteImage{
+        display: none;
+        img {
+            height: 136px;
+        }
+    }
+   
+}
+@media only screen and (max-width: 777px) {
+    .homeHeader {
+        margin-top: 10% !important;
+    }
+    .doggyImage{
+        display: none;
+    }
+    .satelliteImage {
+        display: none;
+    }
+    .mainHome .parachuteImage {
+        margin-left: 0%;
+       
+    }
+    .parachuteImageBottom{
+        img{
+            height: 120px !important;
+        }
+    }
+    .homeData{
+        .tilesContainer img {
+            margin-top: 6% !important;
+        }
+        .metaTile{
+            display: none;            
+        }
+        .trustTile{
+            height: 13pc !important;
+        }
+        h4 {
+            font-size: 49px !important;
+        }
+        .homeHeader{
+            p {
+                font-size: 31px !important;
+            }
+        }
+        .tilesContainer img {
+            height: 67px !important;
+        }
+    }
+    .tilesContainer{
+        width: 82% !important;
+    }
+    .walletMainContainer{
+        width: 82% !important;
+        padding-top: 0px!important;
+    }
+    .priceMainContainer{
+        width: 82% !important;
+        margin: 5% auto 4% auto !important;
+        border: none!important;
+        padding: 0!important;
+    }
+
+    .imageContainer{
+        display: flex;
+        flex-direction: column;
+        .image1{
+            margin-bottom: 2%;
+        }
+        .equalTwo{
+           display: none;
+        }
+    }
+}
+

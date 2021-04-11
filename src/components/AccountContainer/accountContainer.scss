@@ -1,0 +1,33 @@
+.accountContainer{
+    margin: 4% 9% 0% 9%;
+    color: #ffffff;
+    h3{
+        text-align: initial;
+        margin: 2% 10%;
+        font-size: 24px;
+    }
+    .subAccountContainer{
+        display: flex;
+        margin: 0% 10%;
+        .tokenDetails{
+            flex: 0.7;
+        }
+        .balanceDetails{
+            flex: 0.3;
+        }
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .accountContainer{
+        // margin-top: 18%;
+        // margin-bottom: 10%;
+        margin: 18% 0% 10% 0% !important;
+        .subAccountContainer{
+            flex-direction: column;
+            .tokenDetails{
+                margin: 0% 0% 3% 0%;
+            }
+        }
+    }
+}

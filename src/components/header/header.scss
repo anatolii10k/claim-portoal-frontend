@@ -1,0 +1,59 @@
+.header{
+    height: 3.5pc;
+    padding: 8px 4% 0% 0%;
+    display:flex;
+    background-color: #ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+    .imageContainer{
+        align-items: center;
+        display: flex;
+        margin-left: 20px;
+        cursor: pointer;
+        img{
+            // width: 95px;
+            height: 83%;
+        }
+    }
+    .blockContainer{
+        line-height: 2.9;
+        flex: 0.9;
+        text-align: end;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .textImage{
+            // margin: 0 0px;
+            margin-left: 20px;
+            padding: 0%;
+            color: #0C7CFF;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 18px;
+    }
+
+    .walletButton{
+       
+        padding: 10px;
+        border-radius: 7px;
+        border: solid 1px #17D5FC;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #ffffff;
+        background: linear-gradient(88.53deg, #0C7CFF 39.83%, #17D5FC 100%);
+        z-index: 99;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .header{ 
+        height: 4pc;
+        padding: 2% 4% 0% 4%;
+        .imageContainer img {
+           
+            height: 73%;
+        }
+    }
+}
